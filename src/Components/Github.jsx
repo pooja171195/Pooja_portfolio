@@ -7,7 +7,7 @@ class Github extends Component {
     render() {
         return (
             <div>
-                 <GitHubCalendar blockSize={15} blockMargin={5} fontSize={16} username = "jammy12345">
+                 <GitHubCalendar blockSize={15} blockMargin={5} fontSize={16} username = "pooja171195">
                     <ReactTooltip delayShow={50} /> 
                 </GitHubCalendar>
             </div>

@@ -10,11 +10,11 @@ class HomePage extends React.Component {
             <>
                 <div style={{ backgroundColor: "#154360", paddingTop: "9px" }}>
                     <div className={`my-3 position-relative ${Styles.profile_container}`}>
-                        <img src="jamwant.jpg" alt="profile"></img>
+                        <img src="resume.jpeg" alt="profile"></img>
                     </div>
 
                     <div className={Styles.name}>
-                        Jamwant Yadav
+                        Pooja Yadav
                 </div>
 
                     <div className={Styles.profession}>
@@ -23,13 +23,13 @@ class HomePage extends React.Component {
                     <br></br>
 
                     <div>
-                        <Link to={{ pathname: "https://www.linkedin.com/in/jamwant/" }} target="_blank">
+                        <Link to={{ pathname: "https://www.linkedin.com/in/pooja-yadav-b939033a/" }} target="_blank">
                             <img src="linkedin.png" className="mx-4" alt="logo" width="40px"></img>
                         </Link>
-                        <Link to={{ pathname: "https://twitter.com/itsjamwant" }} target="_blank">
+                        <Link to={{ pathname: "https://twitter.com/pooja_yadav111" }} target="_blank">
                             <img src="twitter.png" className="mx-4" alt="logo" width="40px"></img>
                         </Link>
-                        <Link to={{ pathname: "https://github.com/Jammy12345" }} target="_blank">
+                        <Link to={{ pathname: "https://github.com/pooja171195" }} target="_blank">
                             <img src="github.svg" className="mx-4" alt="logo" width="40px"></img>
                         </Link>
                     </div>
@@ -45,13 +45,13 @@ class HomePage extends React.Component {
                         <div className="col-sm-12 col-lg-4">
                             <MdCall size="40px" />
                             <br></br>
-                      +91 7982835002
+                      +91 7982817876
                     </div>
 
                         <div className="col-sm-12 col-lg-4">
                             <MdEmail size="40px" />
                             <br></br>
-                       jamwant.1995@gmail.com
+                       poojayadav190618@gmail.com
                     </div>
                     </div>
 
@@ -62,7 +62,7 @@ class HomePage extends React.Component {
                     <br />
                         <br />
                         <button >
-                            <i><Link className={Styles.resume} to={{ pathname: "https://drive.google.com/file/d/1_wMlArLDQjJwSdtpNzeo7I3l-u-B5ovV/view?usp=sharing" }} target="_blank">Resume</Link></i>
+                            <i><Link className={Styles.resume} to={{ pathname: "https://drive.google.com/file/d/1J4BUF83zRwOEn4V-uhG6fsqu-uBaZvLp/view?usp=sharing" }} target="_blank">Resume</Link></i>
                         </button>
                     </div>
                     <h1 style={{ textAlign: "center" }}>Tech Stack</h1>
